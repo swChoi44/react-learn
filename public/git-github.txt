@@ -1,0 +1,25 @@
+git bash 프로그램 에서
+- connect Id/Email
+
+git config --global user.name "swChoi44"
+( connetion check : git config user.name )
+
+git config --global user.email "dkjjk7009@gmail.com"
+( connetion check : git config user.email )
+
+--
+
+해당 폴더 git bash에서(vscode ctrl+` )
+-프로젝트 깃 만들어서 깃허브에 전송
+
+git init -프로젝트 디렉토리에서 git 초기화
+
+깃허브 프로젝트 레포지토리(원격 저장소) 연결
+git remote add origin https://github.com/swChoi44/react-learn.git
+
+원격저장소 연결 확인
+git remote -v
+
+커밋할 파일 선택(올릴 파일 선택)
+git add 파일이름
+git add . -전체파일 선택 (주로 처음)
