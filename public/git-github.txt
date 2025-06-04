@@ -23,3 +23,23 @@ git remote -v
 커밋할 파일 선택(올릴 파일 선택)
 git add 파일이름
 git add . -전체파일 선택 (주로 처음)
+
+원격저장소에 잠깐 거쳤다(커밋) 저장
+git commit -m "메세지"
+-선택한 파일 커밋
+-메세지: 어떤 파일을 언제 건들였는지 표시
+
+원격저장소에 있던 파일들 rep~로 전송
+git push -u origin BRANCH
+=> git push -u origin master
+
+// 1차 배포 : 깃허브에 프로젝트 전송
+프로젝트를 도메인화 >> Netlify
+
+--
+수정 후 업데이트
+git add .
+git commit -m "20250604-2nd update"
+git push
+
+netlify에서 retry

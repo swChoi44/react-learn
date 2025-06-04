@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer>
-      <img className='f_logo' src='/img_yoo/logo.png' />
+      <img className='f_logo' src='/img_yoo/logo.png' alt='/'/>
       <ul>
         <li>유영국미술문화재단</li>
         <li>주소.서울특별시 서초구 식유촌길61</li>

@@ -27,7 +27,7 @@ const ImgBox = ({idx}) => {
 
   return(
     <div className='imgbox'>
-      <img src={imgPath} />
+      <img src={imgPath} alt='/'/>
     </div>
   )
 }
